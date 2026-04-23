@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Report — Non-Dilutive Capital Infrastructure for Workforce Housing</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.75;
+    color: #1a1a1a;
+    background: #fafaf8;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 72px 32px 100px;
+  }
+
+  .back-link {
+    display: inline-block;
+    font-size: 14px;
+    color: #888;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1px;
+    margin-bottom: 56px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  }
+
+  .back-link:hover {
+    color: #1a1a1a;
+    border-bottom-color: #1a1a1a;
+  }
+
+  section {
+    margin-bottom: 56px;
+  }
+
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    color: #1a1a1a;
+  }
+
+  .meta {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  }
+
+  h2 {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  }
+
+  h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    margin-top: 28px;
+    color: #1a1a1a;
+  }
+
+  h3:first-child {
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 16px;
+    color: #1a1a1a;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  .aperture-box {
+    background: #fff;
+    border: 1px solid #e4e4e0;
+    border-left: 3px solid #1a1a1a;
+    border-radius: 4px;
+    padding: 24px 28px;
+    margin-bottom: 0;
+  }
+
+  .aperture-box p {
+    font-size: 15.5px;
+    line-height: 1.7;
+    color: #333;
+  }
+
+  .aperture-box .checklist {
+    margin: 12px 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .aperture-box .checklist li {
+    font-size: 15px;
+    color: #333;
+    padding: 4px 0;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .aperture-box .checklist li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: #aaa;
+  }
+
+  .finding {
+    background: #fff;
+    border: 1px solid #e4e4e0;
+    border-left: 3px solid #1a1a1a;
+    border-radius: 4px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+  }
+
+  .finding:last-child {
+    margin-bottom: 0;
+  }
+
+  .finding-location {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  }
+
+  .finding-title {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #1a1a1a;
+  }
+
+  .finding dl {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 6px 16px;
+    margin-bottom: 16px;
+  }
+
+  .finding dt {
+    font-size: 13px;
+    font-weight: 600;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding-top: 2px;
+    white-space: nowrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  }
+
+  .finding dd {
+    font-size: 15.5px;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  .finding .pattern-note {
+    font-size: 15px;
+    color: #555;
+    border-top: 1px solid #eee;
+    padding-top: 14px;
+    margin-top: 4px;
+    font-style: italic;
+    line-height: 1.65;
+  }
+
+  .references {
+    font-size: 13px;
+    color: #888;
+    line-height: 1.7;
+  }
+
+  .references ol {
+    padding-left: 20px;
+  }
+
+  .references li {
+    margin-bottom: 6px;
+  }
+
+  .references a {
+    color: #888;
+    word-break: break-all;
+  }
+
+  .references a:hover {
+    color: #1a1a1a;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      padding: 48px 20px 72px;
+      font-size: 16px;
+    }
+
+    .finding dl {
+      grid-template-columns: 1fr;
+      gap: 2px;
+    }
+
+    .finding dt {
+      margin-top: 10px;
+    }
+
+    .finding dt:first-child {
+      margin-top: 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <a href="index.html" class="back-link">&larr; Back</a>
+
+  <h1>Non-Dilutive Capital Infrastructure for Workforce Housing Developers</h1>
+  <p class="meta">Research conducted April 2026 &nbsp;·&nbsp; Casey Dudley / Team Claude</p>
+
+  <!-- The Prompt -->
+  <section>
+    <h2>The Research Brief</h2>
+    <div class="aperture-box">
+      <p>We are looking for communities — cities, counties, or regions — that have identified a workforce housing shortage and responded by assembling a public-private infrastructure designed to attract an outside solution provider to come in and solve it. The key ingredient is non-dilutive capital: the community puts real money, land, tax incentives, or funded programs on the table specifically to incentivize a developer or housing manufacturer to participate. The community is not building the housing itself — it is creating the conditions to attract someone else who will.</p>
+
+      <p style="margin-top: 16px;">The structural model is the Tennessee Innovation Exchange (TNIX): LaunchTN identified that Tennessee businesses couldn't find university research assets. The state, anchor universities, and LaunchTN assembled non-dilutive funding and issued an RFP — a structured invitation — to attract a tech solution provider to build the platform they needed. The provider brought the capability. The community brought the capital and the institutional backing. We want that same structure, applied to workforce housing.</p>
+
+      <p style="margin-top: 16px; font-weight: 600;">Each example had to confirm five things:</p>
+      <ul class="checklist">
+        <li>Workforce housing shortage documented — named, quantified, or tied to a specific workforce</li>
+        <li>Non-dilutive capital infrastructure assembled — specific programs, funds, grants, land, or employer housing funds</li>
+        <li>Incentive designed to attract a developer or solution provider — capital exists to bring someone in, not for the community to build it themselves</li>
+        <li>Anchor institutions involved — hospital system, university, large employer, municipality, or public-private combination</li>
+        <li>Opportunity current and active — program live, accepting participants, or recently launched</li>
+      </ul>
+
+      <p style="margin-top: 16px; color: #888; font-size: 14px;">Geographic scope: U.S. markets outside of LA and the East Coast — Sun Belt, Mountain West, Midwest, and secondary markets with large anchor employers.</p>
+    </div>
+  </section>
+
+  <!-- Findings -->
+  <section>
+    <h2>Findings — 4 Active Examples</h2>
+
+    <div class="finding">
+      <div class="finding-location">Kalamazoo, Michigan</div>
+      <div class="finding-title">Bronson Methodist Hospital &amp; MSHDA Employer-Assisted Housing Fund</div>
+      <dl>
+        <dt>Mechanism</dt>
+        <dd>State-backed Employer-Assisted Housing Fund grant paired with employer matching funds and a local housing millage</dd>
+        <dt>Anchor</dt>
+        <dd>Bronson Methodist Hospital (Bronson Healthcare Group)</dd>
+        <dt>Capital (Non-Dilutive)</dt>
+        <dd>$2M grant from the Michigan State Housing Development Authority (MSHDA) Employer-Assisted Housing Fund, plus a $2M grant from the Kalamazoo County Housing Millage [1][2]</dd>
+        <dt>Developer</dt>
+        <dd>Bogan Developments — awarded contract to build "B on Burdick," 85 units, 20 reserved for Bronson employees [3]</dd>
+      </dl>
+      <p class="pattern-note">Bronson Hospital identified a critical workforce housing shortage and contributed matching funds to unlock the state grant. The assembled capital came first. The developer came second.</p>
+    </div>
+
+    <div class="finding">
+      <div class="finding-location">Flagstaff, Arizona</div>
+      <div class="finding-title">Mountain Line Transit Authority — Public Land Contribution + RFP</div>
+      <dl>
+        <dt>Mechanism</dt>
+        <dd>Public land contribution via a long-term, below-market ground lease, paired with municipal density bonuses and fee reductions</dd>
+        <dt>Anchor</dt>
+        <dd>Mountain Line (Northern Arizona Intergovernmental Public Transportation Authority, representing the City of Flagstaff, Coconino County, and Northern Arizona University)</dd>
+        <dt>Capital (Non-Dilutive)</dt>
+        <dd>4.3 acres of publicly owned land at abated rent, plus City of Flagstaff IPAH fee reimbursements [4][5]</dd>
+        <dt>Developer</dt>
+        <dd>Servitas — selected via formal RFP to finance, build, and operate a workforce housing community for local public employees [6]</dd>
+      </dl>
+      <p class="pattern-note">A coalition of public anchor institutions documented a severe housing crisis, assembled a prime parcel as a non-dilutive incentive, and issued a formal RFP. Same sequence.</p>
+    </div>
+
+    <div class="finding">
+      <div class="finding-location">Madison, Wisconsin</div>
+      <div class="finding-title">Dane Workforce Housing Fund — Employer-Funded Revolving Loan Pool</div>
+      <dl>
+        <dt>Mechanism</dt>
+        <dd>An employer-funded revolving loan pool providing subordinate, below-market gap financing to private developers</dd>
+        <dt>Anchor</dt>
+        <dd>United Way of Dane County, UW-Health, SSM Health, Madison Gas &amp; Electric, American Family Insurance, and other major regional employers</dd>
+        <dt>Capital (Non-Dilutive)</dt>
+        <dd>$11M+ pooled into the Dane Workforce Housing Fund, managed by Madison Development Corporation — subordinate gap loans at 4.5% fixed for 30 years [7][8]</dd>
+        <dt>Developer</dt>
+        <dd>Outside private developers (JT Klein, Northpointe) deploy against the fund with 15-year affordability covenants [9]</dd>
+      </dl>
+      <p class="pattern-note">The employers organized the capital. Outside developers deploy against it. The fund is structured as a permanent, revolving incentive — not a one-time grant.</p>
+    </div>
+
+    <div class="finding">
+      <div class="finding-location">Belgrade, Montana</div>
+      <div class="finding-title">Bozeman Health &amp; ERES Capital — Anchor Pre-Lease Commitment</div>
+      <dl>
+        <dt>Mechanism</dt>
+        <dd>Employer bulk pre-lease commitments that de-risk the developer's capital stack without requiring equity dilution</dd>
+        <dt>Anchor</dt>
+        <dd>Bozeman Health (regional hospital system)</dd>
+        <dt>Capital (Non-Dilutive)</dt>
+        <dd>Long-term master lease commitments for a block of units — Bozeman Health secured units for employees, covering up to 40% of initial demand [10][11]</dd>
+        <dt>Developer</dt>
+        <dd>ERES Capital — 170-unit Yellowstone Airport Plaza workforce housing complex [12]</dd>
+      </dl>
+      <p class="pattern-note">Facing an unprecedented nursing shortage, Bozeman Health gave the developer the financial security to build. One anchor institution pre-lease. Non-dilutive. Project-enabling.</p>
+    </div>
+  </section>
+
+  <!-- References -->
+  <section>
+    <h2>Sources</h2>
+    <div class="references">
+      <ol>
+        <li>Bogan Developments. (2026). <em>$2 Million Award from MSHDA's Employer Assisted Housing Program.</em> <a href="https://bogandevelopments.com/01122026-bogan-developments-press-release-2-million-award-from-mshdas-employer-assisted-housing-program">bogandevelopments.com</a></li>
+        <li>Michigan State Housing Development Authority. (2025). <em>Michigan Opens Employer-Assisted Housing Fund to Address Workforce Housing Shortage.</em> <a href="https://www.michigan.gov/mshda/about/press-releases/2025/02/24/michigan-opens-employer-assisted-housing-fund-to-address-workforce-housing-shortage">michigan.gov</a></li>
+        <li>WWMT. (2026). <em>B on Burdick affordable apartment complex in Kalamazoo.</em> <a href="https://wwmt.com/news/local/b-on-burdick-affordable-apartment-complex-kalamazoo-june-bronson-hospital-employees-housing-jamauri-bogan-developer-wwmt">wwmt.com</a></li>
+        <li>Mountain Line. (2025). <em>RFP 2025-200 Workforce Housing Developer.</em> <a href="https://mountainline.az.gov/wp-content/uploads/2025/03/RFP-2025-200-Workforce-Housing-Developer.pdf">mountainline.az.gov</a></li>
+        <li>Mountain Line. (2025). <em>Board of Directors Advance Agenda Packet (Nov 2025).</em> <a href="https://mountainline.az.gov/wp-content/uploads/2025/11/2025-11-19-BOD-and-TAC-Advance-Agenda-Packet.pdf">mountainline.az.gov</a></li>
+        <li>Partnerships Bulletin. (2025). <em>Winner approved for Arizona workforce housing P3.</em> <a href="https://www.partnershipsbulletin.com/article/1944108/winner-approved-arizona-workforce-housing-p3">partnershipsbulletin.com</a></li>
+        <li>Madison Development Corporation. (2026). <em>Dane Workforce Housing Fund.</em> <a href="https://mdcorp.org/dwhf">mdcorp.org</a></li>
+        <li>SSM Health. (2026). <em>SSM Health, Workforce Housing Fund, and Lake Ridge Bank Partner on 40-Unit Housing Project.</em> <a href="https://www.ssmhealth.com/newsroom/2026/3/ssm-health-workforce-housing-fund-and-lake-ridge-bank-partner-on-40-unit-housing-project">ssmhealth.com</a></li>
+        <li>Madison Development Corporation. (2021). <em>New Dane Workforce Housing Fund Fills One Small Piece of Housing Puzzle.</em> <a href="https://mdcorp.org/news/2021/4/8/new-dane-workforce-housing-fund-fills-one-small-piece-of-housing-puzzle">mdcorp.org</a></li>
+        <li>ERES Companies. (2022). <em>ERES Capital Brings New Workforce Housing Complex to Bozeman Market.</em> <a href="https://www.erescompanies.com/eres-capital-brings-new-workforce-housing-complex-to-bozeman-market/">erescompanies.com</a></li>
+        <li>Multi-Housing News. (2022). <em>ERES Capital Partnership to Kick Off Montana Workforce Housing.</em> <a href="https://www.multihousingnews.com/eres-capital-partnership-to-kick-off-montana-workforce-housing/">multihousingnews.com</a></li>
+        <li>Bozeman Health. (2024). <em>Employee Housing 2024 Update.</em> <a href="https://bozemanhealth.org/why-bozeman-health/">bozemanhealth.org</a></li>
+      </ol>
+    </div>
+  </section>
+
+</body>
+</html>
